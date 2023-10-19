@@ -1,3 +1,27 @@
 .container {
-    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    font-size: 20px;
+}
+
+.logo {
+    flex: 1;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    /* background-color: rebeccapurple; */
 }
