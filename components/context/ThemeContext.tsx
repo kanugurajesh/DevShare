@@ -1,5 +1,6 @@
 "use client"
 
+import { Anybody } from "next/font/google";
 // using context api to store the state of the theme
 import { createContext, useState } from "react"
 
@@ -19,7 +20,7 @@ const getFormLocalStorage = () => {
 // ThemeContextProvider is a wrapper component that will wrap the entire app
 export const ThemeContextProvider = ({ children }:any) => {
     // state to store the theme
-    const [theme,setTheme] = useState("light");
+    const [theme,setTheme] = useState(getFormLocalStorage() || "");
     // function to toggle the theme
     return (
         // passing the value of theme using the context provider
