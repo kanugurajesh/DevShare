@@ -3,10 +3,15 @@
 }
 
 .title {
+    color: black;
     margin: 50px 0px;
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.3rem;
+    font-weight: 700;
     text-transform: capitalize;
+    background-image: linear-gradient(to right, #f9989f, #fccb8f, #faf096);
+    border-radius: 6px;
+    padding: 6px 10px;
+    width: max-content;
 }
 
 .categories {
