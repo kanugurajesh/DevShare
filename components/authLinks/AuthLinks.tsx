@@ -27,7 +27,7 @@ const AuthLinks = () => {
           <span className={styles.link}>LogOut</span>
         </>
       )}
-      <div className={styles.burger} onClick={()=>setOpen(!open)}>
+      <div className={`${styles.burger} ${open ? styles.active : ''}`} onClick={()=>setOpen(!open)}>
         <div className={styles.line}></div>
         <div className={styles.line}></div>
         <div className={styles.line}></div>

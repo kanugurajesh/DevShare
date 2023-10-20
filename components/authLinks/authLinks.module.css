@@ -8,7 +8,7 @@
     cursor: pointer;
 }
 
-.burger {
+/* .burger {
     width: 20px;
     height: 18px;
     display: none;
@@ -21,6 +21,57 @@
     width: 100%;
     height: 2px;
     background-color: var(--textColor);
+} */
+
+.burger {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: #1863ff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    display: none;
+}
+
+.burger .line {
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background: white;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.burger .line:nth-child(1) {
+    transform: translateY(-15px);
+    width: 15px;
+    left: 10px;
+}
+
+.burger .line:nth-child(2) {
+    transform: translateY(15px);
+    width: 15px;
+    left: 10px;
+}
+
+.burger.active .line:nth-child(3) {
+    transform: translateX(60px);
+}
+
+.burger.active .line:nth-child(1) {
+    width: 30px;
+    transform: translateY(0px) rotate(45deg);
+    transition-delay: 0.125s;
+}
+
+.burger.active .line:nth-child(2) {
+    width: 30px;
+    transform: translateY(0px) rotate(-45deg);
+    transition-delay: 0.25s;
 }
 
 .responsiveMenu {
