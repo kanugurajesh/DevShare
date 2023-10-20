@@ -1,0 +1,37 @@
+.container {
+
+}
+
+.title {
+    margin: 50px 0px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+    width: 15%;
+    height: 80px;
+    justify-content: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.category img {
+    border-radius: 50%;
+}
+
+.category.style {
+    background-color: #57c4ff31;
+}
