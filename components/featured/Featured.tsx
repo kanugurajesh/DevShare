@@ -5,6 +5,7 @@ import styles from './featured.module.css'
 import Image from 'next/image'
 
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
+import Link from 'next/link'
 
 // 👋 Devs, Discover developer stories and ideas here! 
 const Featured = () => {
@@ -36,7 +37,12 @@ const Featured = () => {
           <p className={styles.postDesc}>
           👋 everyone <b>DevShare</b> is an initiative which enables developers to share their blogs and articles with the community.
           </p>
-          <button className={styles.button}>Read More</button>
+          <Link href="#" className={styles.buttonLink}>
+            <span className={styles.button}>
+              Read more
+            </span>
+            <i></i>
+          </Link>
         </div>
       </div>
     </div>

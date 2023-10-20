@@ -3,7 +3,7 @@
 }
 
 .title {
-    font-size: 96px;
+    font-size: 85px;
 }
 
 .post {
@@ -33,7 +33,7 @@
 }
 
 .postTitle {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .postDesc {
@@ -42,7 +42,7 @@
     color: var(--softTextColor);
 }
 
-.button {
+/* .button {
     padding: 16px 20px;
     border: none;
     border-radius: 5px;
@@ -54,7 +54,79 @@
     align-items: center;
     font-weight: bold;
     letter-spacing: 2px;
+} */
+
+.buttonLink {
+    position: relative;
+    background: var(--textColor);
+    color: var(--textColor);
+    text-decoration: none;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    padding: 10px 30px;
+    transition: 0.5s;
+    width: max-content;
 }
+
+.buttonLink:hover {
+    background: var(--clr);
+    color: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+}
+
+.buttonLink::before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: var(--bg);
+}
+
+.buttonLink span {
+    position: relative;
+    z-index: 1;
+}
+
+.buttonLink i {
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+
+.buttonLink i::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 80%;
+    width: 10px;
+    height: 4px;
+    background: var(--bg);
+    transform: translateX(-50%) skewX(325deg);
+    transition: 0.5s;
+}
+
+.buttonLink:hover i::before {
+    left: 20%;
+    width: 20px;
+}
+
+.buttonLink i::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    width: 10px;
+    height: 4px;
+    background: var(--bg);
+    transform: translateX(-50%) skewX(325deg);
+    transition: 0.5s;
+}
+
+.buttonLink:hover i::after {
+    left: 80%;
+    width: 20px;
+}
+
 
 .wave {
     z-index: -2;
@@ -67,6 +139,7 @@
 
 .typewriter {
     z-index: -2;
+
 }
 
 @keyframes wave-animation {
