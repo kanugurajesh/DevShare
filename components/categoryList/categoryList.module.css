@@ -40,23 +40,23 @@
 }
 
 .category.webapp {
-    background-color: #57c4ff31;
+    background-color: var(--webapp);
 }
 
 .category.mobileapp {
-background-color: #da85c731;
+background-color: var(--mobileapp);
 }
 
 .category.ml {
-background-color: #7fb88133;
+background-color: var(--ml);
 }
 
 .category.dsa {
-background-color: #ff795736;
+background-color: var(--dsa);
 }
 
 .category.career {
-background-color: #ffb04f45;
+background-color: var(--career);
 }
   
 @media screen and (max-width:1280px) {

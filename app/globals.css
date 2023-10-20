@@ -9,6 +9,11 @@
     --softTextColor: #626262;
     --shadow: rgba(255, 255, 255, 0.5);
     --clr:#6eff3e;
+    --webapp: #57c4ff31;
+    --mobileapp: #7fb88133;
+    --ml: #7fb88133;
+    --dsa: #ff795736;
+    --career: #ffb04f45;
   }
   
 * {
@@ -33,6 +38,11 @@ a {
   --softBg: #1f273a;
   --softTextColor: #a6a6a6;
   --shadow:rgba(255, 255, 255, 0.4);
+  --webapp: #57c4ff99;
+  --mobileapp: #da85c799;
+  --ml: #7fb88199;
+  --dsa: #ff795799;
+  --career: #ffb04f99;
 }
 
 .light {
@@ -41,6 +51,11 @@ a {
   --softBg: #f0f0f0;
   --softTextColor: #626262;
   --shadow:rgba(0, 0, 0, 0.4);
+  --webapp: #57c4ff31;
+  --mobileapp: #da85c731;
+  --ml: #7fb88133;
+  --dsa: #ff795736;
+  --career: #ffb04f45;
 }
 
 .container {
