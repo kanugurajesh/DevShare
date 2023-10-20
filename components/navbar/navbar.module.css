@@ -25,3 +25,7 @@
     font-size: 36px;
     font-weight: bold;
 }
+
+.social img {
+    cursor: pointer;
+}
