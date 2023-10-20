@@ -35,10 +35,6 @@
     /* cursor: pointer; */
 }
 
-.category img {
-    border-radius: 50%;
-}
-
 .category.webapp {
     background-color: #57c4ff31;
 }
