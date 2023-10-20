@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--softTextColor);
+    /* background-color: var(--softTextColor); */
     position: relative;
 }
 
