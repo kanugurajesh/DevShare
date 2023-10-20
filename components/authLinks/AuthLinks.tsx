@@ -1,12 +1,18 @@
 "use client"
 
-import React, {useState} from 'react'
+import React, {useState,useEffect} from 'react'
 import styles from './authLinks.module.css'
 import Link from 'next/link'
 
 const AuthLinks = () => {
 
   const [open,setOpen] = useState(false);
+
+  // when ever the open is true the user should not be able to scroll
+  
+  useEffect(()=>{
+    open ? document.body.style.overflow = "hidden" : document.body.style.overflow = "auto"
+  },[open])
 
   const status = "not logged in"
   return (
