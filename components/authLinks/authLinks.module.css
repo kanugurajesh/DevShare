@@ -25,8 +25,8 @@
 
 .burger {
     position: relative;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     background: #1863ff;
     border-radius: 10px;
     display: flex;
@@ -47,15 +47,15 @@
 }
 
 .burger .line:nth-child(1) {
-    transform: translateY(-15px);
+    transform: translateY(-10px);
     width: 15px;
-    left: 10px;
+    left: 8px;
 }
 
 .burger .line:nth-child(2) {
-    transform: translateY(15px);
+    transform: translateY(10px);
     width: 15px;
-    left: 10px;
+    left: 8px;
 }
 
 .burger.active .line:nth-child(3) {
