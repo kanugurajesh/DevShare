@@ -6,8 +6,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: var(--softTextColor); */
     position: relative;
+    /* pointer-events: none; */
 }
 
 .ball {
