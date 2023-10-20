@@ -57,11 +57,16 @@
 }
 
 .wave {
+    z-index: -2;
     animation-name: wave-animation;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
     transform-origin: 70% 70%;
     display: inline-block;
+}
+
+.typewriter {
+    z-index: -2;
 }
 
 @keyframes wave-animation {

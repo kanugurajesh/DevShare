@@ -22,7 +22,7 @@ const Featured = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>
-        <span>
+        <span className={styles.typewriter}>
           {typeEffect}
           <Cursor />
         </span>

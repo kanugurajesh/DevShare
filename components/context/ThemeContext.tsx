@@ -1,7 +1,7 @@
 "use client"
 
 // using context api to store the state of the theme
-import { createContext, useEffect, useState } from "react"
+import { createContext, useEffect, useState } from "react";
 // define localstorage
 
 export const ThemeContext = createContext({
