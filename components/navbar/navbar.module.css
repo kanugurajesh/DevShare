@@ -29,3 +29,22 @@
 .social img {
     cursor: pointer;
 }
+
+@media screen and (max-width:1280px) {
+    .logo {
+        font-size: 32px;
+    }
+    .links {
+        font-size: 18px;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .social {
+        display: none;
+    }
+    .logo {
+        text-align: left;
+    }
+}
