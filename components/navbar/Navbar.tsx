@@ -9,10 +9,10 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.social}>
-        <Image src="/github.gif" alt="Facebook" width={26} height={26} />
-        <Image src={"/linkedin.gif"} alt='Instagram' width={26} height={26} />
-        <Image src={"/twitter.gif"} alt='Twitter' width={26} height={26} />
-        <Image src={"/youtube.gif"} alt='YouTube' width={26} height={26} />
+        <Link href="https://github.com/rajesh604"><Image src="/github.gif" alt="Facebook" width={26} height={26} /></Link>
+        <Link href="https://www.linkedin.com/in/rajesh-kanugu-aba8a3254/"><Image src={"/linkedin.gif"} alt='Linkedin' width={26} height={26} /></Link>
+        <Link href="https://twitter.com/exploringengin1"><Image src={"/twitter.gif"} alt='Twitter' width={26} height={26} /></Link>
+        <Link href="https://www.youtube.com/@Rajeshcoder"><Image src={"/youtube.gif"} alt='YouTube' width={26} height={26} /></Link>
       </div>
       <div className={styles.logo}><Image src={"/tools.gif"} alt='' width={32} height={32}/> DevShare</div>
       <div className={styles.links}>
