@@ -74,9 +74,13 @@
     transition-delay: 0.25s;
 }
 
+.showLink {
+
+}
+
 .responsiveMenu {
     position: absolute;
-    top: 100px;
+    top: 80px;
     left: 0;
     background-color: var(--bg);
     height: calc(100vh - 100px);
