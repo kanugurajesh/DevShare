@@ -26,12 +26,59 @@
     justify-content: center;
     padding: 10px;
     font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+.category:hover {
+    transform: scale(1.05);
+    /* cursor: pointer; */
 }
 
 .category img {
     border-radius: 50%;
 }
 
-.category.style {
+.category.webapp {
     background-color: #57c4ff31;
+}
+
+.category.mobileapp {
+background-color: #da85c731;
+}
+
+.category.ml {
+background-color: #7fb88133;
+}
+
+.category.dsa {
+background-color: #ff795736;
+}
+
+.category.career {
+background-color: #ffb04f45;
+}
+  
+@media screen and (max-width:1280px) {
+    .category {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .category {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .category {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .category {
+        width: 100%;
+    }
 }
