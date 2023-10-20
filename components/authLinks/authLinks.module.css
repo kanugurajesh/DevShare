@@ -74,8 +74,43 @@
     transition-delay: 0.25s;
 }
 
-.showLink {
+.menuLink {
+    color: var(--textColor);
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    transform: translateX(-250px);
+}
 
+.menuLink.showLink {
+    animation: slideIn 0.5s ease 0.1s forwards;
+}
+
+.menuLink.showLink:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.menuLink.showLink:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.menuLink.showLink:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.menuLink.showLink:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-250px);
+    }
+    to {
+        transform: translateX(0);
+    }
 }
 
 .responsiveMenu {
