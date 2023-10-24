@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className={styles.logo}><Image src={"/tools.gif"} alt='' width={32} height={32}/> DevShare</div>
       <div className={styles.links}>
         <ThemeToggle />
-        <Link href="/" className={styles.link}>HomePage</Link>
+        <Link href="/" className={styles.link}>Home</Link>
         <Link href="/" className={styles.link}>Contact</Link>
         <Link href="/" className={styles.link}>About</Link>
         <AuthLinks />

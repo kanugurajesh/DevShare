@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* disable scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
     --bg: white;
     --textColor: black;
