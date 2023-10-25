@@ -10,7 +10,7 @@ import Link from 'next/link'
 // 👋 Devs, Discover developer stories and ideas here! 
 const Featured = () => {
   
-  const Data = "👋 Devs, Discover developer stories and ideas here! "
+  const Data = "Devs, Discover developer stories and ideas here! "
 
   const [typeEffect] = useTypewriter({
     words: [Data],
@@ -24,6 +24,7 @@ const Featured = () => {
     <div className={styles.container}>
       <h1 className={styles.title}>
         <span className={styles.typewriter}>
+        <span className={`${styles.wave} ${styles.wavexy}`}>👋</span>
           {typeEffect}
           <Cursor />
         </span>

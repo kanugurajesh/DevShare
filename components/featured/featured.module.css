@@ -3,7 +3,9 @@
 }
 
 .title {
-    font-size: 85px;
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 30px;
 }
 
 .post {
@@ -132,7 +134,12 @@
 
 .typewriter {
     z-index: -2;
+}
 
+.wavexy {
+    display: inline-block;
+    margin-bottom: -20px;
+    margin-right: 20px;
 }
 
 @keyframes wave-animation {
