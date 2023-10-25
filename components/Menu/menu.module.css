@@ -14,7 +14,10 @@
 }
 
 .items {
-
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
 
 .item {
@@ -43,7 +46,19 @@
 }
 
 .postTitle {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 500;
     color: var(--softTextColor);
+}
+
+.category {
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    width: max-content;
+}
+
+.category.travel {
+    background-color: #ff7857;
 }
