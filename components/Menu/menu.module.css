@@ -41,3 +41,9 @@
     flex-direction: column;
     gap: 5px;
 }
+
+.postTitle {
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--softTextColor);
+}

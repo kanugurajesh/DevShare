@@ -17,7 +17,7 @@ const Menu = () => {
             <span className={`${styles.category} ${styles.travel}`}>
               Travel
             </span>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, molestiae.</h3>
+            <h3 className={styles.postTitle}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, molestiae.</h3>
             <div className={styles.detail}>
               <span className={styles.username}>
                 John Doe
