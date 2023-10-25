@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from '@/components/categoryList/categoryList.module.css'
-// import styles from './categoryList.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 

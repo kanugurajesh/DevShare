@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from '@/components/cardList/cardList.module.css'
 import Pagination from '@/components/pagination/Pagination'
-// import Pagination from '../pagination/Pagination'
 import Image from 'next/image'
 import Card from '@/components/card/Card'
 

@@ -1,9 +1,7 @@
 "use client"
 
-
 import { ThemeContext } from "@/components/context/ThemeContext";
 
-// import { ThemeContext } from "../context/ThemeContext";
 import React, { useContext, useEffect, useState } from "react"
 
 const ThemeProvider = ({ children }:any) => {
