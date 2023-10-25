@@ -91,7 +91,7 @@
 
 @keyframes slideIn {
     from {
-        transform: translateX(-250px);
+        transform: translateX(-500px);
     }
     to {
         transform: translateX(0);
