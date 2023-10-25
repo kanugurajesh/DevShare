@@ -1,0 +1,53 @@
+.container {
+    margin-bottom: 50px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.imageContainer {
+    flex: 1;
+    height: 400px;
+    position: relative;
+}
+
+.textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image {
+    object-fit: cover;
+}
+
+.h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.detail {
+    font-weight: bold;
+}
+
+.date {
+    color: #777;
+}
+
+.category {
+    color: red;
+}
+
+.desc {
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--softTextColor);
+}
+
+.link {
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px red, 2px 2px 0px orange;
+}
