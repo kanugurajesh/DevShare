@@ -1,8 +1,9 @@
 import React from 'react'
-import styles from './cardList.module.css'
-import Pagination from '../pagination/Pagination'
+import styles from '@/components/cardList/cardList.module.css'
+import Pagination from '@/components/pagination/Pagination'
+// import Pagination from '../pagination/Pagination'
 import Image from 'next/image'
-import Card from '../card/Card'
+import Card from '@/components/card/Card'
 
 const CardList = () => {
   return (

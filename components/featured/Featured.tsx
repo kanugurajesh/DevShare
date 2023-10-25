@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-import styles from './featured.module.css'
+import styles from '@/components/featured/featured.module.css'
 import Image from 'next/image'
 
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
