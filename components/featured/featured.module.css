@@ -17,7 +17,9 @@
     flex: 1;
     height: 500px;
     position: relative;
-
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .image {
@@ -33,7 +35,7 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
 
 .postTitle {
@@ -46,20 +48,6 @@
     color: var(--softTextColor);
 }
 
-/* .button {
-    padding: 16px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: var(--textColor);
-    color: var(--bg);
-    width: max-content;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-    letter-spacing: 2px;
-} */
-
 .buttonLink {
     position: relative;
     background: var(--textColor);
@@ -71,6 +59,7 @@
     padding: 10px 30px;
     transition: 0.5s;
     width: max-content;
+    margin-top: 10px;
 }
 
 .buttonLink:hover {

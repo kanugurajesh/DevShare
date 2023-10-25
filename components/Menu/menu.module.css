@@ -1,6 +1,9 @@
 .container {
     flex: 2;
     margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
 
 .subtitle {
