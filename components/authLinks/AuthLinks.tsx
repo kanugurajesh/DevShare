@@ -11,7 +11,7 @@ const AuthLinks = () => {
   // when ever the open is true the user should not be able to scroll
   
   useEffect(()=>{
-    open ? document.body.style.overflow = "hidden" : document.body.style.overflow = "auto"
+    open ? document.body.style.overflow = "auto" : document.body.style.overflow = "hidden"
   },[open])
 
   const status = "not logged in"
