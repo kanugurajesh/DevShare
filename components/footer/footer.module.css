@@ -48,3 +48,22 @@
     display: flex;
     gap: 11px;
 }
+
+@media screen and (max-width:1024px) {
+    .links {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .links {
+        justify-content: space-between;
+        gap: 0px;
+    }
+
+}
