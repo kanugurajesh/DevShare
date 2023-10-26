@@ -1,2 +1,52 @@
 .container {
+    margin-top: 50px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--softTextColor);
+}
+
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.links {
+    flex: 1;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoText {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 100px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.listTitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+    gap: 11px;
 }
