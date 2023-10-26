@@ -1,0 +1,33 @@
+.categoryList {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.categoryItem {
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.categoryItem.web {
+    background-color: var(--webapp);
+}
+
+.categoryItem.mobile {
+    background-color: var(--mobileapp);
+}
+
+.categoryItem.ml {
+    background-color: var(--ml);
+}
+
+.categoryItem.dsa {
+    background-color: var(--dsa);
+}
+
+.categoryItem.career {
+    background-color: var(--career);
+}
