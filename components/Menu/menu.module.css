@@ -65,3 +65,9 @@
 .category.travel {
     background-color: #ff7857;
 }
+
+@media screen and (max-width: 1024px) {
+    .container {
+        display: none;
+    }
+}
