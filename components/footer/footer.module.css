@@ -13,10 +13,6 @@
     gap: 20px;
 }
 
-.links {
-    flex: 1;
-}
-
 .logo {
     display: flex;
     align-items: center;
@@ -31,6 +27,8 @@
 .links {
     flex: 1;
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: flex-end;
     gap: 100px;
 }
