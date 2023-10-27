@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@rive-app/react-canvas": "^4.5.0",
+    "@storybook/react": "^7.5.1",
     "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
