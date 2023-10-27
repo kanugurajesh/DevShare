@@ -68,6 +68,10 @@ font-weight: 300;
 margin-bottom: 20px;
 }
 
+.h5 {
+  font-weight: bold;
+}
+
 @media screen and (max-width:1536px) {
   .title {
     font-size: 54px;

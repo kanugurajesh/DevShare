@@ -30,7 +30,7 @@ const page = () => {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum corrupti voluptate ad blanditiis. Molestias delectus et fuga. Reiciendis, inventore eum.
             </p>
-            <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+            <h5 className={styles.h5}>Lorem ipsum dolor sit amet consectetur.</h5>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, blanditiis modi. Quam reprehenderit consequuntur perferendis voluptas labore saepe fuga sunt.
             </p>
