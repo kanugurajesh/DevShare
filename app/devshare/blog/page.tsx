@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "@/app/blog/blog.module.css"
+import styles from "@/app/devshare/blog/blog.module.css"
 import Menu from "@/components/Menu/Menu"
 import CardList from '@/components/cardList/CardList'
 

@@ -2,7 +2,7 @@
 
 import {ChangeEvent, SyntheticEvent, useState, useRef, useEffect} from "react";
 
-import styles from "@/app/login/login.module.css";
+import styles from "@/app/devshare/login/login.module.css";
 
 import { 
     useRive,
@@ -17,7 +17,7 @@ import {
 const STATE_MACHINE_NAME = 'Login Machine'
 const LOGIN_PASSWORD = 'teddy';
 
-const page = () => {
+const Page = () => {
   const [userValue, setUserValue] = useState('');
   const [passValue, setPassValue] = useState('');
   const [inputLookMultiplier, setInputLookMultiplier] = useState(0);
@@ -123,4 +123,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

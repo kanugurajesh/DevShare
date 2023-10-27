@@ -1,4 +1,5 @@
-import styles from '@/app/[slug]/page.module.css'
+// import styles from '@/app/[slug]/page.module.css'
+import styles from '@/app/devshare/[slug]/page.module.css'
 import Comments from '@/components/comments/Comments'
 import Menu from '@/components/Menu/Menu'
 import Image from 'next/image'
