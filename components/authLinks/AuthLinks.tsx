@@ -25,11 +25,11 @@ const AuthLinks = () => {
     <div className={styles.container}>
       {status === "not logged in" ? (
         <>
-          <Link href={"/login"} className={styles.link}>Login</Link>
+          <Link href={"/devshare/login"} className={styles.link}>Login</Link>
         </>
       ):(
         <>
-          <Link href={"/write"} className={styles.link}>Write</Link>
+          <Link href={"/devshare/write"} className={styles.link}>Write</Link>
           <span className={styles.link}>LogOut</span>
         </>
       )}
