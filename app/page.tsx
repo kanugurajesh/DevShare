@@ -11,7 +11,7 @@ export default function Home() {
         <CategoryList />
         <div className={styles.content}>
           <CardList />
-          <Menu />
+          <Menu withImage={true}/>
         </div>
       </div>
     )

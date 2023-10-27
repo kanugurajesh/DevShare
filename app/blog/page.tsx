@@ -9,7 +9,7 @@ const blog = () => {
       <h1 className={styles.title}>Style Blog</h1>
       <div className={styles.content}>
         <CardList />
-        <Menu />
+        <Menu withImage={true}/>
       </div>
     </div>
   )

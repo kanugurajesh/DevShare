@@ -42,7 +42,7 @@ const page = () => {
             <Comments />
           </div>
         </div>
-      <Menu />
+      <Menu withImage={false}/>
     </div>
     </div>
   )
