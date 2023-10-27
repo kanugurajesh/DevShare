@@ -45,7 +45,7 @@ const AuthLinks = () => {
           <Link href={"/contact"} className={`${styles.menuLink} ${open?styles.showLink: ''}`}>Contact</Link>
           {status === "not logged in" ? (
               <>
-                <Link href={"/login"} className={`${styles.menuLink} ${open?styles.showLink: ''}`}>Login</Link>
+                <Link href={"/devshare/login"} className={`${styles.menuLink} ${open?styles.showLink: ''}`}>Login</Link>
               </>
             ):(
               <>
