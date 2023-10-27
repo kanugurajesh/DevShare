@@ -29,6 +29,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
   height: 100%;
   background-color: #d6e2ea;
 }
@@ -103,5 +104,16 @@
   .rive-container {
     min-height: 300px;
     min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .login-form-component-root {
+    min-width: 100%;
+  }
+  
+  .rive-container {
+    height: 300px;
+    width: 300px;
   }
 }
