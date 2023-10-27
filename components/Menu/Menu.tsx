@@ -2,8 +2,6 @@ import React from 'react'
 import styles from '@/components/Menu/menu.module.css'
 import MenuPosts from '@/components/menuPosts/MenuPosts'
 import MenuCategories from '../menuCategories/MenuCategories'
-import Link from 'next/link'
-import Image from 'next/image'
 
 const Menu = () => {
   return (
