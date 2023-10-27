@@ -18,13 +18,13 @@ const Footer = () => {
           <Link href={"https://github.com/rajesh604"}>
             <Image src="/github.png" alt="github" width={30} height={30} />
           </Link>
-          <Link href={""}>
+          <Link href={"https://www.linkedin.com/in/rajesh-kanugu-aba8a3254/"}>
             <Image src="/linkedin.png" alt="facebook" width={30} height={30} />
           </Link>
-          <Link href={""}>
+          <Link href={"https://twitter.com/exploringengin1"}>
             <Image src="/twitter.png" alt="twitter" width={30} height={30} />
           </Link>
-          <Link href={""}>
+          <Link href={"https://www.youtube.com/@Rajeshcoder"}>
             <Image src="/youtube.png" alt="instagram" width={30} height={30} />
           </Link>
         </div>
