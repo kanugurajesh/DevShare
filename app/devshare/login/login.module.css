@@ -32,8 +32,13 @@
 }
 
 .rivestorycontainerlogin {
-  background-color: #d6e2ea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
+  background-color: #d6e2ea;
+  height: 90vh;
 }
 
 .formcontainer label {
@@ -90,4 +95,72 @@
 .loginformwrapper {
   width: 100%;
   max-width: 400px;
+}
+
+@media screen and (max-width:650px) {
+
+  .loginformcomponentroot {
+    min-width: 320px;
+  }
+
+  .rivestorycontainerlogin {
+    background-color: #ffffff;
+  }
+
+  .rivewrapper {
+    width: 100%;
+  }
+  
+  .rivecontainer {
+    min-height: 300px;
+    min-width: 320px;
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .formcontainer {
+    margin-top: 20px;
+    border-radius: var(--border-radius-2x);
+    padding: 0;
+  }
+
+}
+
+@media screen and (max-width:402px) {
+
+  .loginformcomponentroot {
+    min-width: 280px;
+  }
+
+  .rivecontainer {
+    min-width: 280px;
+    width: 280px;
+  }
+
+}
+
+@media screen and (max-width:365px) {
+
+  .loginformcomponentroot {
+    min-width: 250px;
+  }
+
+  .rivecontainer {
+    min-width: 250px;
+    width: 250px;
+  }
+  
+}
+
+@media screen and (max-width:335px) {
+
+  .loginformcomponentroot {
+    min-width: 230px;
+  }
+
+  .rivecontainer {
+    min-width: 230px;
+    width: 230px;
+  }
+  
 }
