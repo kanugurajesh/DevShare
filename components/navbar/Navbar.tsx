@@ -14,7 +14,8 @@ const Navbar = () => {
         <Link href="https://twitter.com/exploringengin1"><Image src={"/twitter.png"} alt='Twitter' width={27} height={27} /></Link>
         <Link href="https://www.youtube.com/@Rajeshcoder"><Image src={"/youtube.png"} alt='YouTube' width={27} height={27} /></Link>
       </div>
-      <div className={styles.logo}><Image src={"/tools.gif"} alt='' width={32} height={32}/> DevShare</div>
+      <div className={styles.logo}><Image className={styles.logoImage} src={"/tools.gif"} alt='' width={32} height={32}/> DevShare</div>
+
       <div className={styles.links}>
         <ThemeToggle />
         <Link href="/" className={styles.link}>Home</Link>
