@@ -99,6 +99,10 @@
 
 @media screen and (max-width:650px) {
 
+  .rivestorycontainerlogin {
+    height: 80vh;
+  }
+
   .loginformcomponentroot {
     min-width: 320px;
   }
@@ -128,6 +132,10 @@
 
 @media screen and (max-width:402px) {
 
+  .rivestorycontainerlogin {
+    height: 70vh;
+  }
+
   .loginformcomponentroot {
     min-width: 280px;
   }
@@ -141,6 +149,10 @@
 
 @media screen and (max-width:365px) {
 
+  .rivestorycontainerlogin {
+    height: 60vh;
+  }
+
   .loginformcomponentroot {
     min-width: 250px;
   }
@@ -153,6 +165,10 @@
 }
 
 @media screen and (max-width:335px) {
+
+  .rivestorycontainerlogin {
+    height: 50vh;
+  }
 
   .loginformcomponentroot {
     min-width: 230px;
