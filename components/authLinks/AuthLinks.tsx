@@ -40,17 +40,17 @@ const AuthLinks = () => {
       </div>
       {open && (
         <div className={styles.responsiveMenu}>
-          <Link href={"/"} className={`${styles.menuLink} ${open?styles.showLink: ''}`}>Home</Link>
-          <Link href={"/about"} className={`${styles.menuLink} ${open?styles.showLink: ''}`}>About</Link>
-          <Link href={"/contact"} className={`${styles.menuLink} ${open?styles.showLink: ''}`}>Contact</Link>
+          <Link href={"/"} className={`${styles.menuLink} ${open?styles.showLink: ''}`} onClick={()=>setOpen(!open)}>Home</Link>
+          <Link href={"/about"} className={`${styles.menuLink} ${open?styles.showLink: ''}`} onClick={()=>setOpen(!open)}>About</Link>
+          <Link href={"/contact"} className={`${styles.menuLink} ${open?styles.showLink: ''}`} onClick={()=>setOpen(!open)}>Contact</Link>
           {status === "not logged in" ? (
               <>
-                <Link href={"/devshare/login"} className={`${styles.menuLink} ${open?styles.showLink: ''}`}>Login</Link>
+                <Link href={"/devshare/login"} className={`${styles.menuLink} ${open?styles.showLink: ''}`} onClick={()=>setOpen(!open)}>Login</Link>
               </>
             ):(
               <>
-                <Link href={"/write"} className={open?styles.showLink: ''}>Write</Link>
-                <span className={styles.link}>LogOut</span>
+                <Link href={"/write"} className={open?styles.showLink: ''} onClick={()=>setOpen(!open)}>Write</Link>
+                <span className={styles.link} onClick={()=>setOpen(!open)}>LogOut</span>
               </>
           )}
         </div>
