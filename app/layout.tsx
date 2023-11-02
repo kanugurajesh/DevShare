@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <link
         rel="preload"
-        href="/hero_use_case_v5.riv"
+        href="/hero_use_case.riv"
         as="fetch"
         crossOrigin="anonymous"
       />

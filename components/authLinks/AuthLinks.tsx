@@ -20,7 +20,8 @@ const AuthLinks = () => {
     }
   },[open])
 
-  const status = "not logged in"
+  // const status = "not logged in"
+  const status = "logged in";
   return (
     <div className={styles.container}>
       {status === "not logged in" ? (
