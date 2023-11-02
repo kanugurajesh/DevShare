@@ -24,7 +24,7 @@ const AuthLinks = () => {
   const status = "logged in";
   return (
     <div className={styles.container}>
-      {status === "not logged in" ? (
+      {status !== "logged in" ? (
         <>
           <Link href={"/devshare/login"} className={styles.link}>Login</Link>
         </>
@@ -44,7 +44,7 @@ const AuthLinks = () => {
           <Link href={"/"} className={`${styles.menuLink} ${open?styles.showLink: ''}`} onClick={()=>setOpen(!open)}>Home</Link>
           <Link href={"/about"} className={`${styles.menuLink} ${open?styles.showLink: ''}`} onClick={()=>setOpen(!open)}>About</Link>
           <Link href={"/contact"} className={`${styles.menuLink} ${open?styles.showLink: ''}`} onClick={()=>setOpen(!open)}>Contact</Link>
-          {status === "not logged in" ? (
+          {status === "logged in" ? (
               <>
                 <Link href={"/devshare/login"} className={`${styles.menuLink} ${open?styles.showLink: ''}`} onClick={()=>setOpen(!open)}>Login</Link>
               </>
